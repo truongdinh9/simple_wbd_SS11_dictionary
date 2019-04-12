@@ -23,7 +23,7 @@
     String search = request.getParameter("Eng");
     String result=dic.get(search);
     if( result!=null){
-        out.println("word:"+ search+"</br>");
+        out.println("word:"+ search+"<br/>");
         out.println("result:"+ result);
     }else out.println("Not found");
 %>
